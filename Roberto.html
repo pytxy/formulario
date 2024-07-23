@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrusel Infinito de Fotos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<style>
+  .owl-carousel img {
+    width: 90px;
+    height: 190px;
+  }
+</style>
+
+<body>
+
+  <div class="owl-carousel">
+    <div><img src="https://i.postimg.cc/JGJFr2T5/mante.jpg" alt="Imagen 1"></div>
+    <div><img src="https://i.postimg.cc/rKnDpfKz/mada.jpg" alt="Imagen 2"></div>
+    <div><img src="https://i.postimg.cc/8sd6MHr1/hogaza.jpg" alt="Imagen 3"></div>
+    <div><img src="https://i.postimg.cc/0bpc6D9m/IMG-20231028-192409-107.jpg" alt="Imagen 4"></div>
+    <div><img src="https://i.postimg.cc/mchYSHWm/bagette-copia.jpg" alt="Imagen 5"></div>
+    <div><img src="https://i.postimg.cc/14f9Ry1h/yo-2.jpg" alt="Imagen 6"></div>
+    <div><img src="https://i.postimg.cc/gxKsGVJJ/IMG20231111093257.jpg" alt="Imagen7"></div>
+    <div><img src="https://i.postimg.cc/fJB33ZmY/IMG-20231102-201907.jpg" alt="Imagen 8"></div>
+    <div><img src="https://i.postimg.cc/94GJTJV3/mante.jpg" alt="Imagen 9"></div>
+    <div><img src="https://i.postimg.cc/bSgNvwXy/IMG-20231028-192409-107.jpg" alt="Imagen 10"></div>
+    <div><img src="https://i.postimg.cc/Lg3hZVPM/Screenshot-2023-11-01-10-42-51-78-965bbf4d18d205f782c6b8409c5773a4.jpg'  alt='Screenshot-2023-11-01-10-42-51-78-965bbf4d18d205f782c6b8409c5773a4'"></div>
+    <div><img src="https://i.postimg.cc/jLhJWR6J/IMG-20231102-095911.jpg'  alt='IMG-20231102-095"></div>
+    <div><img src='https://i.postimg.cc/8jJNbmjm/masa.jpg' border='0' alt='masa'></div>
+    <div><img src='https://i.postimg.cc/XGztZtcS/masa2.jpg' border='0' alt='masa2'></div>
+    <div><img src='https://i.postimg.cc/sM48PM9J/masa3.jpg' border='0' alt='masa3'></div>
+    <div><img src='https://i.postimg.cc/8C4tHggw/masa4.jpg' border='0' alt='masa4'></div>
+    <div><img src='https://i.postimg.cc/LJGT1RGV/masa5.jpg' border='0' alt='masa5'></div>
+    <div><img src='https://i.postimg.cc/9rMtgrhp/masa6.jpg' border='0' alt='masa6'></div>
+    <div><img src="https://i.postimg.cc/14f9Ry1h/yo-2.jpg'  alt='yo-2"></div>
+    <div><img src="https://i.postimg.cc/fJB33ZmY/IMG-20231102-201907.jpg"></div>
+    <div><img src='https://i.postimg.cc/HV4kDjcm/IMG-20231021-WA0007.jpg'></div>
+    <div><img src='https://i.postimg.cc/mZ3WjZPB/carro-de-mantecadas.jpg'  alt='carro-de-mantecadas'/></div>
+    <div><img src='https://i.postimg.cc/Jz7Wtzm2/CARTEL-EN-COLRE.jpg'  alt='CARTEL-EN-COLRE'/></div>
+    <div><img src='https://i.postimg.cc/bs31hbjW/despacho.jpg'  alt='despacho'/></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
